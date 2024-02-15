@@ -1,0 +1,31 @@
+:root {
+    /* ---CSS Color Variables--- */
+    /* Primary Colors */
+    --green    : hsl(75, 94%, 57%);
+    /* Neutral Colors */
+    --white    : hsl(0, 0%, 100%);
+    --grey     : hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+
+    /* Base Font size */
+    font-size: 14px;
+}
+
+/* Initialization */
+*,
+::before,
+::after {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+.attribution {
+    font-size : 1em;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(75, 94%, 57%);
+}
