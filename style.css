@@ -37,6 +37,7 @@ body {
 .container {
     background-color: var(--dark-grey);
     border-radius   : .5em;
+    box-shadow      : 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
     height          : 40em;
     padding         : 2em;
     text-align      : center;
